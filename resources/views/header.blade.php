@@ -53,16 +53,7 @@
                     <a href="/about" class="nav-item nav-link">Qui sommes nous?</a>
                     <a href="/service" class="nav-item nav-link">Nos services</a>
                     <a href="/project" class="nav-item nav-link">Projects</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu bg-light mt-2">
-                            <a href="/feature" class="dropdown-item">Features</a>
-                            <a href="/team" class="dropdown-item">Our Team</a>
-                            <a href="/faq" class="dropdown-item">FAQs</a>
-                            <a href="/testimonial" class="dropdown-item">Testimonial</a>
-                            <a href="/404" class="dropdown-item">404 Page</a>
-                        </div>
-                    </div>
+                    <a href="/faq" class="nav-item nav-link">Galerie</a>
                     <a href="/contact" class="nav-item nav-link">Contact</a>
                 </div>
                 <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"

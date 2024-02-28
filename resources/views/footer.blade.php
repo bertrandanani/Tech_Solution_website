@@ -26,10 +26,9 @@
               <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                   <h5 class="text-white mb-4">Liens populaires</h5>
                   <a class="btn btn-link" href="/a-propos">À propos de nous</a>
+                  <a class="btn btn-link" href="/carriere">Nos projets</a>
                   <a class="btn btn-link" href="/contact">Nous contacter</a>
-                  <a class="btn btn-link" href="/politique-de-confidentialite">Politique de confidentialité</a>
                   <a class="btn btn-link" href="/conditions-generales">Conditions générales</a>
-                  <a class="btn btn-link" href="/carriere">Carrière</a>
               </div>
               
               <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
@@ -37,8 +36,7 @@
                   <a class="btn btn-link" href="/automatisation-robotique">Conception de site web</a>
                   <a class="btn btn-link" href="/apprentissage-machine">Conception d'applications mobile</a>
                   <a class="btn btn-link" href="/analyse-predictive">Designer Web / infographie</a>
-                  <a class="btn btn-link" href="/science-des-donnees">Communication digitale</a>
-                  <a class="btn btn-link" href="/technologie-robotique">Technologie robotique</a>
+                  <a class="btn btn-link" href="/science-des-donnees">Stratégie de Marketing Digital</a>
               </div>
               
           </div>
