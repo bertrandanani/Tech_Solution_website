@@ -507,61 +507,7 @@
     <!-- Team End -->
 
 
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Témoignage</div>
-                    <h1 class="mb-4">Ce que disent nos clients !</h1>
-                  <p class="mb-4">Nos clients sont notre priorité absolue. Voici ce qu'ils disent à propos de notre travail :</p>
-                    <a class="btn btn-primary rounded-pill px-4" href="">En savoir plus</a>
-                </div>
-                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="owl-carousel testimonial-carousel border-start border-primary">
-                        <div class="testimonial-item ps-5">
-                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                            <p class="fs-4">Très satisfait du service fourni par HB Tech Solution. Leur expertise et dévouement ont été cruciaux pour notre projet.</p>
-                            <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg"
-                                    style="width: 60px; height: 60px;">
-                                <div class="ps-3">
-                                    <h5 class="mb-1">Client Name</h5>
-                                    <span>Profession</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial-item ps-5">
-                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                            <p class="fs-4">La collaboration avec HB Tech Solution pour notre application web et mobile a été très fructueuse. Leur expertise technique et leur engagement ont été essentiels pour concrétiser nos idées.</p>
-                            <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg"
-                                    style="width: 60px; height: 60px;">
-                                <div class="ps-3">
-                                    <h5 class="mb-1">Client Name</h5>
-                                    <span>Profession</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial-item ps-5">
-                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                            <p class="fs-4">Nous sommes extrêmement satisfaits de la collaboration avec HB Tech Solution pour notre stratégie de communication digitale. Leur expertise dans ce domaine et leur engagement ont grandement contribué à atteindre nos objectifs de manière efficace.</p>
 
-                            <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg"
-                                    style="width: 60px; height: 60px;">
-                                <div class="ps-3">
-                                    <h5 class="mb-1">Client Name</h5>
-                                    <span>Profession</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
 
 
     <!-- Newsletter Start -->

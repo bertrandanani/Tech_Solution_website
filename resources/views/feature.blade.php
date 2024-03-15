@@ -10,12 +10,12 @@
         <div class="container pt-5">
             <div class="row g-5 pt-5">
                 <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-                    <h1 class="display-4 text-white mb-4 animated slideInRight">Features</h1>
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">{{ GoogleTranslate::trans("Qualités", request()->session()->get('lang') ?? 'fr') }}</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
                             <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                             <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Features</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Qualités</li>
                         </ol>
                     </nav>
                 </div>
@@ -55,7 +55,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
                     <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Why Choose Us</div>
-                    <h1 class="text-white mb-4">We're Best in AI Industry with 10 Years of Experience</h1>
+                    <h1 class="text-white mb-4">{{ GoogleTranslate::trans("Nous sommes les meilleurs dans le domaine de l'intéligence artificielle avec 10 ans d'expérience", request()->session()->get('lang') ?? 'fr') }}</h1>
                     <p class="text-light mb-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed
                         stet no labore lorem sit. Sanctus clita duo justo et tempor</p>
                     <div class="d-flex align-items-center text-white mb-3">
@@ -82,7 +82,7 @@
                                 <i class="fa fa-home fa-3x text-white"></i>
                                 <div class="ms-3">
                                     <h2 class="text-white mb-0" data-toggle="counter-up">9999</h2>
-                                    <p class="text-white mb-0">Happy Clients</p>
+                                    <p class="text-white mb-0">{{ GoogleTranslate::trans("Clients Contents", request()->session()->get('lang') ?? 'fr') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +91,7 @@
                                 <i class="fa fa-home fa-3x text-white"></i>
                                 <div class="ms-3">
                                     <h2 class="text-white mb-0" data-toggle="counter-up">9999</h2>
-                                    <p class="text-white mb-0">Project Complete</p>
+                                    <p class="text-white mb-0">{{ GoogleTranslate::trans("Projets Complètés", request()->session()->get('lang') ?? 'fr') }}</p>
                                 </div>
                             </div>
                         </div>

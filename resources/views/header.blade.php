@@ -41,7 +41,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark p-0">
             <a href="/index" class="navbar-brand">
-                <h1 class="text-white">HB<span class="text-dark">-</span>Tech Solution</h1>
+                <h1 class="text-white">HB<span class="text-dark">.</span>Tech Solution</h1>
             </a>
             <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse">
@@ -49,16 +49,23 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto">
-                    <a href="/" class="nav-item nav-link active">Accueil</a>
-                    <a href="/about" class="nav-item nav-link">Qui sommes nous?</a>
-                    <a href="/service" class="nav-item nav-link">Nos services</a>
-                    <a href="/project" class="nav-item nav-link">Projects</a>
-                    <a href="/faq" class="nav-item nav-link">Galerie</a>
-                    <a href="/contact" class="nav-item nav-link">Contact</a>
+                    <a href="/" class="nav-item nav-link active">{{ GoogleTranslate::trans("Acceuil", request()->session()->get('lang') ?? 'fr') }}</a>
+                    <a href="/about" class="nav-item nav-link">{{ GoogleTranslate::trans("Qui sommes nous?", request()->session()->get('lang') ?? 'fr') }}</a>
+                    <a href="/service" class="nav-item nav-link">{{ GoogleTranslate::trans("Nos services", request()->session()->get('lang') ?? 'fr') }}</a>
+                    <a href="/project" class="nav-item nav-link">{{ GoogleTranslate::trans("Projets", request()->session()->get('lang') ?? 'fr') }}</a>
+                    <a href="/gallerie" class="nav-item nav-link">{{ GoogleTranslate::trans("Gallerie", request()->session()->get('lang') ?? 'fr') }}</a>
+                    <a href="/contact" class="nav-item nav-link">{{ GoogleTranslate::trans("Contact", request()->session()->get('lang') ?? 'fr') }}</a>
                 </div>
-                <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
-                    data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                {{-- <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                    data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> --}}
+
+                    <div style="justify-content:center;align-items:center;display:flex; height:80px; margin-left:20px; margin-top:20px" class="">
+                        <a href="{{ route('changeLang') }}?lang=fr"><p class="text-white">FR</p></a>
+                        &nbsp &nbsp
+                            <a href="{{ route('changeLang') }}?lang=en"><p class="text-white">EN</p></a>
+                    </div>
             </div>
+
         </nav>
     </div>
 </div>

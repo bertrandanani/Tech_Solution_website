@@ -10,12 +10,12 @@
         <div class="container pt-5">
             <div class="row g-5 pt-5">
                 <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-                    <h1 class="display-4 text-white mb-4 animated slideInRight">404 Error</h1>
+                    <h1 class="display-4 text-white mb-4 animated slideInRight"></h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">404 Error</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">{{ GoogleTranslate::trans("Acceuil", request()->session()->get('lang') ?? 'fr') }}</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">{{ GoogleTranslate::trans("Pages", request()->session()->get('lang') ?? 'fr') }}</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">{{ GoogleTranslate::trans("Erreur 404", request()->session()->get('lang') ?? 'fr') }}</li>
                         </ol>
                     </nav>
                 </div>
@@ -56,9 +56,9 @@
                 <div class="col-lg-6">
                     <i class="bi bi-exclamation-triangle display-1 text-primary"></i>
                     <h1 class="display-1">404</h1>
-                    <h1 class="mb-4">Page Not Found</h1>
-                    <p class="mb-4">We’re sorry, the page you have looked for does not exist in our website! Maybe go to our home page or try to use a search?</p>
-                    <a class="btn btn-primary rounded-pill py-3 px-5" href="">Go Back To Home</a>
+                    <h1 class="mb-4">{{ GoogleTranslate::trans("Page not found", request()->session()->get('lang') ?? 'fr') }}</h1>
+                    <p class="mb-4">{{ GoogleTranslate::trans("We’re sorry, the page you have looked for does not exist in our website! Maybe go to our home page or try to use a search?", request()->session()->get('lang') ?? 'fr') }} </p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5" href="">{{ GoogleTranslate::trans("Reourner a l'acceuil", request()->session()->get('lang') ?? 'fr') }}</a>
                 </div>
             </div>
         </div>
@@ -75,14 +75,14 @@
                 </div>
                 <div class="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
                     <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Newsletter</div>
-                    <h1 class="text-white mb-4">Let's subscribe the newsletter</h1>
+                    <h1 class="text-white mb-4">{{ GoogleTranslate::trans("Inscrivez vous a notre newslettre", request()->session()->get('lang') ?? 'fr') }} </h1>
                     <div class="position-relative w-100 mt-3 mb-2">
                         <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
                             placeholder="Enter Your Email" style="height: 48px;">
                         <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
                                 class="fa fa-paper-plane text-primary fs-4"></i></button>
                     </div>
-                    <small class="text-white-50">Diam sed sed dolor stet amet eirmod</small>
+                    <small class="text-white-50"></small>
                 </div>
             </div>
         </div>

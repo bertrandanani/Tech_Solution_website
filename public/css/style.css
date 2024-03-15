@@ -6,6 +6,9 @@
     --dark: #14183E;
 }
 
+.email{
+    size: 8px;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -327,11 +330,11 @@ h6,
 .case-item img {
     transition: .5s;
 }
-  
+
 .case-item:hover img {
     transform: scale(1.2);
 }
-  
+
 .case-overlay {
     position: absolute;
     padding: 30px;

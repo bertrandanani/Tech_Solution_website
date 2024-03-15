@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Controller;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    ini_set('max_execution_time', 600);
     return view('index');
 });
 Route::get('/feature', function () {
@@ -31,8 +34,8 @@ Route::get('/service', function () {
 Route::get('/project', function () {
     return view('project');
 });
-Route::get('/faq', function () {
-    return view('faq');
+Route::get('/gallerie', function () {
+    return view('gallerie');
 });
 Route::get('/contact', function () {
     return view('contact');
@@ -42,4 +45,11 @@ Route::get('/about', function () {
 });
 Route::get('/404', function () {
     return view('404');
+});
+
+
+Route::controller(Controller::class)->group(function()
+{
+
+    Route::get('/lang', 'changeLang')->name('changeLang');
 });
