@@ -16,8 +16,7 @@
                   <p><i class="fa fa-phone-alt me-3"></i>+228 97556532</p>
                   <div class="d-flex pt-2">
                       <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=61557001477948&mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
-                      <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                      <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                      <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/hb_techsolution_officiel/"><i class="fab fa-instagram"></i></a>
                       <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/hb-tech-solution-a2336a2ba/"><i class="fab fa-linkedin-in"></i></a>
                   </div>
                   <p href="Contact.HbTechSolution@protonmail.com"><i class="fa fa-envelope me-3"></i>Email:<br>contact.HBTechSolution@protonmail.com</p>

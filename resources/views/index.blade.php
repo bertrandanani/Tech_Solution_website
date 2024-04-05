@@ -74,8 +74,7 @@
                     <div class="d-flex align-items-center mt-4">
                         <a class="btn btn-primary rounded-pill px-4 me-3" href="">{{ GoogleTranslate::trans("En savoir plus", request()->session()->get('lang') ?? 'fr') }} En savoir plus</a>
                         <a class="btn btn-outline-primary btn-square me-3" href="https://www.facebook.com/profile.php?id=61557001477948&mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://www.instagram.com/hb_techsolution_officiel/"><i class="fab fa-instagram"></i></a>
                         <a class="btn btn-outline-primary btn-square" href="https://www.linkedin.com/in/hb-tech-solution-a2336a2ba/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
@@ -422,7 +421,7 @@
                                             <a class="btn btn-square btn-primary m-1" href="https://www.facebook.com/profile.php?id=61557001477948&mibextid=LQQJ4d"><i
                                                     class="fab fa-facebook-f"></i></a>
 
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1" href="https://www.instagram.com/hb_techsolution_officiel/"><i
                                                     class="fab fa-instagram"></i></a>
                                             <a class="btn btn-square btn-primary m-1" href="https://www.linkedin.com/in/hb-tech-solution-a2336a2ba/"><i
                                                     class="fab fa-linkedin-in"></i></a>
@@ -437,7 +436,7 @@
                                         <div class="d-flex justify-content-center mt-3">
                                             <a class="btn btn-square btn-primary m-1" href="https://www.facebook.com/profile.php?id=61557001477948&mibextid=LQQJ4d"><i
                                                     class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1" href="https://www.instagram.com/hb_techsolution_officiel/"><i
                                                     class="fab fa-instagram"></i></a>
                                             <a class="btn btn-square btn-primary m-1" href="https://www.linkedin.com/in/hb-tech-solution-a2336a2ba/"><i
                                                     class="fab fa-linkedin-in"></i></a>
@@ -456,7 +455,7 @@
                                         <div class="d-flex justify-content-center mt-3">
                                             <a class="btn btn-square btn-primary m-1" href="https://www.facebook.com/profile.php?id=61557001477948&mibextid=LQQJ4d"><i
                                                     class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1" href="https://www.instagram.com/hb_techsolution_officiel/"><i
                                                     class="fab fa-instagram"></i></a>
                                             <a class="btn btn-square btn-primary m-1" href="https://www.linkedin.com/in/hb-tech-solution-a2336a2ba/"><i
                                                     class="fab fa-linkedin-in"></i></a>
@@ -472,7 +471,7 @@
                                             <a class="btn btn-square btn-primary m-1" href="https://www.facebook.com/profile.php?id=61557001477948&mibextid=LQQJ4d"><i
                                                     class="fab fa-facebook-f"></i></a>
 
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1" href="https://www.instagram.com/hb_techsolution_officiel/"><i
                                                     class="fab fa-instagram"></i></a>
                                             <a class="btn btn-square btn-primary m-1" href="https://www.linkedin.com/in/hb-tech-solution-a2336a2ba/"><i
                                                     class="fab fa-linkedin-in"></i></a>
@@ -488,7 +487,7 @@
                                             <a class="btn btn-square btn-primary m-1" href="https://www.facebook.com/profile.php?id=61557001477948&mibextid=LQQJ4d"><i
                                                     class="fab fa-facebook-f"></i></a>
 
-                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                            <a class="btn btn-square btn-primary m-1" href="https://www.instagram.com/hb_techsolution_officiel/"><i
                                                     class="fab fa-instagram"></i></a>
                                             <a class="btn btn-square btn-primary m-1" href="https://www.linkedin.com/in/hb-tech-solution-a2336a2ba/"><i
                                                     class="fab fa-linkedin-in"></i></a>
